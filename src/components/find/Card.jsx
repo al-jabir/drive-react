@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./Find.module.css";
+import styled from "./Find.module.css";
 
-const Card = ({ image, make }) => {
+const Card = ({ image, brand }) => {
   return (
-    <div className={styles.card}>
+    <div className={styled.card}>
       <img src={image} alt="/" />
-      <p>{make}</p>
+      <p>{brand}</p>
     </div>
   );
 };
