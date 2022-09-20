@@ -48,7 +48,8 @@
 
 .card p {
   text-align: center;
-  padding: 5px 0;
+  padding: 0.5rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -57,6 +58,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+
   .card {
     width: 100%;
   }
