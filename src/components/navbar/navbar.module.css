@@ -5,6 +5,7 @@
   align-content: center;
   justify-content: space-between;
   padding: 1rem;
+  background: #fff;
 }
 .menu {
   display: flex;
@@ -14,7 +15,8 @@
   padding: 1rem;
 }
 .menu a {
-  font-size: 0.8rem;
+  color: black;
+  font-size: 1rem;
 }
 .btn_mobile {
   display: none;
