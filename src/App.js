@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   return (
     <div>
-      <h2>Drive react website</h2>
+      <Navbar />
     </div>
   );
 };
